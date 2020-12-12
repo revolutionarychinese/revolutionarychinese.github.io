@@ -1,0 +1,173 @@
+body {
+	background-color: pink;
+}
+
+/*#word4 {
+	display: none;
+}*/
+#word-single-4 {
+	display: none;
+}
+/*#word3 {
+	display: none;
+}*/
+#word-single-3 {
+	display: none;
+}
+
+/*#word2 {
+	display: none;
+}*/
+#word-single-2 {
+	display: none;
+}
+
+
+
+.text {
+	background-color: #ffe9d3;
+	color: #ed2025;
+	display: inline-block;
+	border: 1px solid;
+	width: 1080px;
+	height: 1080px;
+	text-align: center;
+	font-style: normal;
+	padding: 0px;
+	margin: 0px;
+
+}
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.text-size-4 {
+	font-size: 200px;
+}
+.text-size-single-4 {
+	font-size: 200px;
+}
+.text-size-3 {
+	font-size: 220px;
+}
+.text-size-single-3 {
+	font-size: 230px;
+}
+.text-size-2 {
+	font-size: 240px;
+}
+.text-size-single-2 {
+	font-size: 300px;
+}
+
+div {
+	margin: auto;
+	color: #ed2025;
+
+}
+
+#hidden {
+	display: none;
+}
+
+.simp {
+	font-family: source-han-sans-simplified-c, sans-serif;
+	font-weight: 700;
+}
+
+.simp-margin-4 {
+	margin-top: 200px;
+}
+.simp-single-margin-4 {
+	margin-top: 300px;
+}
+.simp-margin-3 {
+	margin-top: 160px;
+}
+.simp-single-margin-3 {
+	margin-top: 270px;
+}
+.simp-margin-2 {
+	margin-top: 140px;
+}
+.simp-margin-single-2 {
+	margin-top: 200px;
+}
+
+.comp {
+	font-family: source-han-sans-traditional, sans-serif;
+	font-weight: 800;
+}
+
+.comp-margin-4 {
+	margin-top: -60px;
+}
+
+.comp-margin-3 {
+	margin-top: -70px;
+}
+
+.comp-margin-2 {
+	margin-top: -80px;
+	margin-bottom: -10px;
+}
+
+.width4 {
+	font-size: 80px;
+	width: 790px;
+}
+.width3 {
+	font-size: 80px;
+	width: 660px;
+}
+.width-single-3 {
+	font-size: 80px;
+	width: 692px;
+}
+.width2 {
+	font-size: 80px;
+	padding-left: 20px;
+	width: 490px;
+	/*background-color: pink;*/
+}
+.width-single-2 {
+	font-size: 110px;
+	padding-left: 20px;
+	width: 600px;
+	/*background-color: pink;*/
+}
+.pinyin {
+	font-family: source-sans-pro, sans-serif;
+	font-weight: 800;
+	text-align-last:justify;
+}
+
+.trans {
+	/*display:none;*/
+	width: 100%;
+	font-size: 60px;
+	font-family: Times New Roman;
+	text-align: center;
+}
+
+.trans-margin-4 {
+	margin-top: 150px;
+}
+.trans-single-margin-4 {
+	margin-top: 272px;
+}
+.trans-margin-3 {
+	margin-top: 145px;
+}
+.trans-single-margin-3 {
+	margin-top: 262px;
+}
+.trans-margin-2 {
+	margin-top: 130px;
+}
+.trans-margin-single-2 {
+	margin-top: 205px;
+}
+
+
