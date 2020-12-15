@@ -44,7 +44,7 @@
 			</p>
 		</div>
 		<div class="trans trans-margin-4">
-			<em>to make things up</em>
+			<em>to concoct a cock-and-bull story</em>
 		</div>
 	</div>
 	<div class="text" id="word-single-4">
@@ -91,18 +91,18 @@
 	</div>
 	<div class="text" id="word2">
 		<p class="simp simp-margin-2 text-size-2">
-			头条
+			诽谤
 		</p>
 		<p class="comp comp-margin-2 text-size-2">
-			<strong>頭條</strong>
+			<strong>誹謗</strong>
 		</p>
 		<div class="width2">
 			<p class="pinyin">
-				<strong>tóu tiáo</strong>
+				<strong>fěi bàng</strong>
 			</p>
 		</div>
 		<div class="trans trans-margin-2">
-			<em>headline</em>
+			<em>slander</em>
 		</div>
 	</div>
 	<div class="text" id="word-single-2">
@@ -117,6 +117,10 @@
 		<div class="trans trans-margin-single-2">
 			<em>writer</em>
 		</div>
+	</div>
+
+	<div class="buttons">
+		<!-- <div id="like_button_container"></div> -->
 	</div>
 
 
@@ -136,7 +140,35 @@
 			// logFunction = function(element) {
 			// 	console.log(element)
 			// }
-			// names = $('.text:visible').each((i, ele) => {
+
+			trimFunction = function(words) {
+				words =words.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+				words = words.split(/\r?\n/);
+				words = words.map(s => s = s.trim());
+				words = words.map(s => s = s.replace(/ /g, "_"));
+				words = words.filter(Boolean);
+				return words;
+			}
+			chinese_words = $('.text:visible').children("p.simp").text().toString();
+			chinese_words = trimFunction(chinese_words);
+			pinyin_words = $('.text:visible').find("p.pinyin").text().toString();
+			pinyin_words = trimFunction(pinyin_words);
+			console.log(pinyin_words);
+
+			createButton = function(name) {
+				var r=$('<input/>').attr({
+					type: "button",
+					id: "field",
+					value: name
+				});
+				$(".buttons").append(r);    
+			}
+			chinese_words.forEach(createButton);
+			// console.log(names);
+
+			// names = $('.text:visible').children("p.simp").each((i, ele) => {
+			// 	console.log(ele);
+			// 	// console.log(ele.text());
 			// 	var $input = $('<input type="button" value="new button" />');
    //  			$input.appendTo($("body"));
 			// })
@@ -144,5 +176,8 @@
 		});
 
 	</script>
+	<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+	<script src="like_button.js"></script>
 </body>
 </html>

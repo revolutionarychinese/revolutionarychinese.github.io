@@ -1,13 +1,10 @@
-body {
-	background-color: pink;
-}
 
-/*#word4 {display: none;}*/
+/* #word4 {display: none;}
 #word-single-4 {display: none;}
-/*#word3 {display: none;}*/
+#word3 {display: none;}
 #word-single-3 {display: none;}
-/*#word2 {display: none;}*/
-/*#word-single-2 {display: none;}*/
+#word2 {display: none;}
+#word-single-2 {display: none;} */
 
 input {
 	background-color: yellow;
@@ -119,6 +116,10 @@ div {
 	font-size: 80px;
 	width: 790px;
 }
+.width-single-4 {
+	font-size: 80px;
+	width: 790px;
+}
 .width-3 {
 	font-size: 80px;
 	width: 650px;
@@ -156,13 +157,13 @@ div {
 .trans-margin-4 {
 	margin-top: 160px;
 }
-.trans-single-margin-4 {
+.trans-margin-single-4 {
 	margin-top: 272px;
 }
 .trans-margin-3 {
 	margin-top: 145px;
 }
-.trans-single-margin-3 {
+.trans-margin-single-3 {
 	margin-top: 262px;
 }
 .trans-margin-2 {
