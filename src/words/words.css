@@ -15,27 +15,38 @@ input {
 	background-color: blue;
 }
 
-
-.text {
-	background-color: #ffe9d3;
-	background-image: url("bg.jpg");
-	background-size: cover;
-	/*from poster*/
-	/*color: #d8101b; */
-	/*a bit brighter*/
-	color: #e3131a;
-	/*from avatar*/
-	/*color: #ed2025; */
+.clear-space {
 	display: inline-block;
-	/*border: 1px solid;*/
-	width: 1440px;
 	height: 1080px;
 	text-align: center;
 	font-style: normal;
 	padding: 0px;
 	margin: 0px;
-
 }
+
+.classic {
+	width: 1440px;
+	background-color: #ffe9d3;
+	background-image: url("classic.jpg");
+	background-size: cover;
+	/*color: #d8101b; */
+	/*a bit brighter*/
+	color: #e3131a;
+	/*from avatar*/
+	/*color: #ed2025; */
+	/*border: 1px solid;*/
+}
+
+.covid {
+	width: 1080px;
+	background-color: lightblue;
+	background-image: url("covid.png");
+	/* background-size: cover; */
+	/* color: #ff5656; */
+	color: #ec1b1b;
+	/* border: 1px solid; */
+}
+
 p {
 	opacity: 0.9;
 	margin: 0px;
@@ -77,13 +88,13 @@ div {
 .simp-margin-4 {
 	margin-top: 190px;
 }
-.simp-single-margin-4 {
+.simp-margin-single-4 {
 	margin-top: 300px;
 }
 .simp-margin-3 {
 	margin-top: 160px;
 }
-.simp-single-margin-3 {
+.simp-margin-single-3 {
 	margin-top: 270px;
 }
 .simp-margin-2 {
@@ -136,8 +147,8 @@ div {
 }
 .width-single-2 {
 	font-size: 110px;
-	padding-left: 20px;
-	width: 540px;
+	/* padding-left: 20px; */
+	width: 590px;
 	/*background-color: pink;*/
 }
 .pinyin {

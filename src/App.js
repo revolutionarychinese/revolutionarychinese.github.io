@@ -28,7 +28,8 @@ function saveCanvases() {
 function ChineseWords() {
     return (
       <div>
-      <Words
+      <Words/>
+      {/* <Words
         simplified="共产主义"
         traditional="共產主義"
         pinyin="gòng chǎn zhǔ yì"
@@ -45,7 +46,7 @@ function ChineseWords() {
         traditional="共產"
         pinyin="gòng chǎn"
         trans="communism"
-      />
+      /> */}
       </div>
     );
 }
@@ -68,8 +69,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-          {/* <ChineseWords/> */}
-          <Headline/>
+          <ChineseWords/>
+          {/* <Headline/> */}
         </div>
         <button onClick={saveCanvases}>
         download images
