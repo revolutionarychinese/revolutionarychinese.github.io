@@ -4,7 +4,7 @@ import html2canvas from 'html2canvas';
 import React, { useState, useEffect } from 'react';
 
 // My components
-import HeadlineBox from './what-headline.js'
+import Headline from './headline/headline.js'
 import Words from './words/words.js'
 
 function saveCanvases() {
@@ -25,46 +25,51 @@ function saveCanvases() {
 
 }
 
+function ChineseWords() {
+    return (
+      <div>
+      <Words
+        simplified="共产主义"
+        traditional="共產主義"
+        pinyin="gòng chǎn zhǔ yì"
+        trans="communism"
+      />
+      <Words
+        simplified="共产主"
+        traditional="共產主"
+        pinyin="gòng chǎn zhǔ"
+        trans="communism"
+      />
+      <Words
+        simplified="共产"
+        traditional="共產"
+        pinyin="gòng chǎn"
+        trans="communism"
+      />
+      </div>
+    );
+}
+
 function App() {
   useEffect(() => {
     // Update the document title using the browser API
-    console.log("page loaded")
     var canvases = document.querySelectorAll(".container");
-
     function appendCanvas(canvas) {
       html2canvas(canvas).then(canvas => {
         console.log("canvas")
         document.querySelector(".canvas").appendChild(canvas)
       });
     }
-
     canvases.forEach(appendCanvas);
-
   });
+
 
   return (
     <div className="App">
       <header className="App-header">
-        <div class="container">
-          <Words
-            simplified="共产主义"
-            traditional="共產主義"
-            pinyin="gòng chǎn zhǔ yì"
-            trans="communism"
-          />
-          <Words
-            simplified="共产主"
-            traditional="共產主"
-            pinyin="gòng chǎn zhǔ"
-            trans="communism"
-          />
-          <Words
-            simplified="共产"
-            traditional="共產"
-            pinyin="gòng chǎn"
-            trans="communism"
-          />
-          {/* <HeadlineBox/> */}
+        <div>
+          {/* <ChineseWords/> */}
+          <Headline/>
         </div>
         <button onClick={saveCanvases}>
         download images
