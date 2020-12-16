@@ -6,6 +6,7 @@ import React, { useState, useEffect } from 'react';
 // My components
 import Headline from './headline/headline.js'
 import Words from './words/words.js'
+import Countdown from './countdown/countdown.js'
 
 function saveCanvases() {
   var canvases = document.querySelectorAll("canvas");
@@ -69,7 +70,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-          <ChineseWords/>
+          <Countdown/>
+          {/* <ChineseWords/> */}
           {/* <Headline/> */}
         </div>
         <button onClick={saveCanvases}>
