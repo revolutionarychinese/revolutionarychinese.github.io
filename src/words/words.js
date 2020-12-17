@@ -36,9 +36,18 @@ function Word(props) {
 // ā á ǎ à ō ó ǒ ò ē é ě è ī í ǐ ì ū ú ǔ ù ǖ ǘ ǚ  ǜ  ü
 
 const covid_words = [
-	["新冠","新冠","xīn guān","novel coronavirus"],
-	["新冠病毒","新冠病毒", "xīn guān bìng dú", "novel coronavirus"],
-	["新冠肺炎", "新冠肺炎", "xīn guān fèi yán", "COVID-19"],
+	// ["新冠","新冠","xīn guān","novel coronavirus"],
+	// ["新冠病毒","新冠病毒", "xīn guān bìng dú", "novel coronavirus"],
+	// ["新冠肺炎", "新冠肺炎", "xīn guān fèi yán", "COVID-19"],
+	// ["疫情", "疫情", "yì qíng", "epidemic situation"],
+	// ["抗疫", "抗疫", "kàng yì", "anti-epidemic"],
+	// ["症状", "症狀", "zhèng zhuàng", "no symptoms"],
+	// ["无症状", "無症狀", "wú zhèng zhuàng", "asymptomatic"],
+
+	["社交距离", "社交距離", "shè jiāo jù lí", "social distancing"],
+	["封锁", "封鎖", "fēng suǒ", "lockdown"],
+	["检疫", "檢疫", "jiǎn yì", "quarantine"],
+	["隔离", "隔離", "gé lí", "isolate"],
 ];
 
 function Words(props) {

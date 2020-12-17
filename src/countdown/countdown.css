@@ -53,6 +53,7 @@ div {
 	display: none;
 }
 .flexbox {
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
     font-size: 35px;
@@ -94,11 +95,11 @@ div {
     color: #3f3f3f;
 	width: 70%;
 	font-size: 35px;
-    line-height: 30px;
+    /* line-height: 30px; */
 	font-family: Times New Roman;
 	text-align: center;
 }
 
 .trans-margin-4 {
-	margin-top: 560px;
+	margin-top: 540px;
 }

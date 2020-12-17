@@ -62,29 +62,29 @@ function Word(props) {
 // ā á ǎ à ō ó ǒ ò è é è ě ī í ǐ ì ū ú ǔ ù ǖ ǘ ǚ  ǜ  ü
 
 const countdown_words = [
-	["新冠肺炎", "新冠肺炎", "yīn xìng", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
-	["武汉加油", "武漢加油", "yīn xìng", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
-	["居家抗疫", "居家抗疫", "yīn xìng", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
-	["戴口罩", "戴口罩", "yīn xìng", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
-	["人民至上，生活至上", "人民至上，生活至上", "yīn xìng", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
+	["新冠肺炎", "新冠肺炎", "xīn guān fèi yán", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
+	["武汉加油", "武漢加油", "wǔ hàn jiā yóu", "Stay strong Wuhan!", "During the spring festival of 2020, Stay strong Wuhan was all of China's shared wish"],
+	["居家抗疫", "居家抗疫", "jū jiā kàng yì", "Stay home, fight the epidemic", "To fight the epidemic, going out less and avoiding gatherings becomes the new normal"],
+	["戴口罩", "戴口罩", "dài kǒu zhào", "Wear a mask", "We wear a mask to protect ourselves and to protect others"],
+	["人民至上，生活至上", "人民至上，生活至上", "rén mín zhì shàng, shēng huó zhì shàng", "People first, lives first", "Protect lives and health at all costs"],
 
-	["人类卫生健康共同体", "人類衛生健康共同體", "yīn xìng", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
-	["上网，云毕业", "上網，雲畢業", "yīn xìng", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
-	["天向一号", "天向一號", "yīn xìng", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
-	["珠峰测高", "珠峰測高", "yīn xìng", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
-	["民法典", "民法典", "yīn xìng", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
+	["人类卫生健康共同体", "人類衛生健康共同體", "rén lèi wèi shēng jiàn kāng gòng tóng tǐ", "COVID-19", "ddd"],
+	["上网，云毕业", "上網，雲畢業", "shàng wǎng kè, yún bìyè", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
+	["天向一号", "天向一號", "tiān xiàng yī hào", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
+	["珠峰测高", "珠峰測高", "zhū fēng cè gāo", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
+	["民法典", "民法典", "mín fǎ diǎn", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
 
-	["港区国安法", "港區國安法", "yīn xìng", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
-	["北斗开通", "北斗開通", "yīn xìng", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
-	["直播带货", "直播帶貨", "yīn xìng", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
-	["表彰大会", "表彰大會", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
-	["深圳特区40年", "深圳特區40年", "yīn xìng", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
+	["港区国安法", "港區國安法", "gǎng qū guó ān fǎ", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
+	["北斗开通", "北斗開通", "běi dǒu kāi tōng", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
+	["直播带货", "直播帶貨", "zhí bò dài huò", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
+	["表彰大会", "表彰大會", "biǎo zhāng dà huì", "The novel coronavirus spreads across the globe, impacting countless lives"],
+	["深圳特区40年", "深圳特區40年", "shēn zhèn tè qū 40 nián", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
 
-	["抗美援朝70周年", "抗美援朝70週年", "yīn xìng", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
-    ["奋斗者号", "奮鬥者號", "yīn xìng", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
-	["浦东开发开放30年", "浦東開發開放30年", "yīn xìng", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
-	["脱贫攻坚", "脫貧攻堅", "yīn xìng", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
-	["嫦娥五号", "嫦娥五號", "yīn xìng", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
+	["抗美援朝70周年", "抗美援朝70週年", "kàng měi yuán cháo 70 zhōu nián", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
+    ["奋斗者号", "奮鬥者號", "fèn dòu zhě hào", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
+	["浦东开发开放30年", "浦東開發開放30年", "pǔ dōng kāi fā kāi fàng 30 nián", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
+	["脱贫攻坚", "脫貧攻堅", "tuō pín gōng jiān", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
+	["嫦娥五号", "嫦娥五號", "cháng'é wǔ hào", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
 ];
 
 function Countdown(props) {
