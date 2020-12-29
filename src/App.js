@@ -4,9 +4,10 @@ import html2canvas from 'html2canvas';
 import React, { useState, useEffect } from 'react';
 
 // My components
-import Headline from './headline/headline.js'
-import Words from './words/words.js'
-import Countdown from './countdown/countdown.js'
+// import Headline from './headline/headline.js'
+// import Words from './words/words.js'
+// import Countdown from './countdown/countdown.js'
+import Mao from './mao/mao.js'
 
 function saveCanvases() {
   var canvases = document.querySelectorAll("canvas");
@@ -26,31 +27,6 @@ function saveCanvases() {
 
 }
 
-function ChineseWords() {
-    return (
-      <div>
-      <Words/>
-      {/* <Words
-        simplified="共产主义"
-        traditional="共產主義"
-        pinyin="gòng chǎn zhǔ yì"
-        trans="communism"
-      />
-      <Words
-        simplified="共产主"
-        traditional="共產主"
-        pinyin="gòng chǎn zhǔ"
-        trans="communism"
-      />
-      <Words
-        simplified="共产"
-        traditional="共產"
-        pinyin="gòng chǎn"
-        trans="communism"
-      /> */}
-      </div>
-    );
-}
 
 function App() {
   useEffect(() => {
@@ -70,8 +46,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-          <Countdown/>
-          {/* <ChineseWords/> */}
+          {/* <Countdown/> */}
+          {/* <Words/> */}
+          <Mao/>
           {/* <Headline/> */}
         </div>
         <button onClick={saveCanvases}>
