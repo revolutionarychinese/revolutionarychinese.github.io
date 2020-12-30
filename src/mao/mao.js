@@ -5,24 +5,24 @@ import opencc from 'node-opencc';
 
 function Word(props) {
 	const style = "mao";
-	const single = props.simplified == props.traditional;
+	const single = props.simplified === props.traditional;
 	const length = props.simplified.length;
 	const suffix = single ? `single-${length}` : `${length}`;
 	return (
-		<div class={`container clear-space ${style}`} id="word">
-			<p class={`simp simp-margin-${suffix} text-size-${suffix}`}>
+		<div className={`container clear-space ${style}`} id={props.simplified}>
+			<p className={`simp simp-margin-${suffix} text-size-${suffix}`}>
 				{props.simplified}
 			</p>
-			{!single ? <p class={`comp comp-margin-${suffix} text-size-${suffix}`}>
+			{!single ? <p className={`comp comp-margin-${suffix} text-size-${suffix}`}>
 				{props.traditional}
 			</p> : <div></div>
 			}
-			<div class={`width-${suffix}`}>
-				<p class="pinyin">
+			<div className={`width-${suffix}`}>
+				<p className="pinyin">
 					{props.pinyin}
 				</p>
 			</div>
-			<div class={`trans trans-margin-${suffix}`}>
+			<div className={`trans trans-margin-${suffix}`}>
 				<em>
 					{props.trans}
 				</em>
@@ -57,13 +57,14 @@ function Mao(props) {
 		const trad_str = opencc.simplifiedToTraditional(simp);
 		items.push(
 			<Word
+				key={"word" + index}
 				simplified={simp}
 				traditional={trad_str}
 				pinyin={pinyin_str}
 				trans={trans}/>
 		);
 		blurbs.push(
-			<p>{simp + "（" + trad_str + "）" + trans}</p>
+			<p key={"blurb" + index}>{simp + "（" + trad_str + "）" + trans}</p>
 		);
 	}
 	return (

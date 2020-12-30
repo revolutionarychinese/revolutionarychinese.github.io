@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import html2canvas from 'html2canvas';
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 // My components
 // import {default as Component} from './headline/headline.js'
@@ -17,7 +16,7 @@ function saveCanvases() {
     // Create a link
     var aDownloadLink = document.createElement('a');
     // Add the name of the file to the link
-    aDownloadLink.download = 'canvas_image.png';
+    aDownloadLink.download = canvas.id + ".png";
     // Attach the data to the link
     aDownloadLink.href = image;
     // Get the code to click the download link
@@ -33,8 +32,9 @@ function App() {
     // Update the document title using the browser API
     var canvases = document.querySelectorAll(".container");
     function appendCanvas(canvas) {
+      const element_id = canvas.id
       html2canvas(canvas).then(canvas => {
-        console.log("canvas")
+        canvas.id = element_id
         document.querySelector(".canvas").appendChild(canvas)
       });
     }
@@ -49,7 +49,7 @@ function App() {
         <button onClick={saveCanvases}>
         download images
         </button>
-        <div class="canvas">
+        <div className="canvas">
         </div>
         {/* <p>
           lol <code>src/App.js</code> and save to reload.
