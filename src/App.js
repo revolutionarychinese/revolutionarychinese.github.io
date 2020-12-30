@@ -4,10 +4,10 @@ import html2canvas from 'html2canvas';
 import React, { useState, useEffect } from 'react';
 
 // My components
-// import Headline from './headline/headline.js'
-// import Words from './words/words.js'
-// import Countdown from './countdown/countdown.js'
-import Mao from './mao/mao.js'
+// import {default as Component} from './headline/headline.js'
+// import {default as Component} from './words/words.js'
+// import {default as Component} from './countdown/countdown.js'
+import {default as Component} from './mao/mao.js'
 
 function saveCanvases() {
   var canvases = document.querySelectorAll("canvas");
@@ -45,12 +45,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div>
-          {/* <Countdown/> */}
-          {/* <Words/> */}
-          <Mao/>
-          {/* <Headline/> */}
-        </div>
+        <Component/>
         <button onClick={saveCanvases}>
         download images
         </button>

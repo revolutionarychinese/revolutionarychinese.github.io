@@ -1,4 +1,4 @@
-// import './countdown.css';
+import './countdown.css';
 import 'jquery-csv';
 import img1 from './assets/1.png';
 import img2 from './assets/2.png';
@@ -82,9 +82,10 @@ const countdown_words = [
 
 	["抗美援朝70周年", "抗美援朝70週年", "kàng měi yuán cháo 70 zhōu nián", "War to resist US Aggression and aid Korea 70 Years", "We solemnly remember the People’s Volunteer Army participation in the War to Resist US Aggression and aid Korea’s 70th anniversary"],
     ["奋斗者号", "奮鬥者號", "fèn dòu zhě hào", "Fendouzhe \"Striver\"", "The manned deep sea submersible “Fendouzhe” successfully lands at the bottom of the Marianas Trench, reaching a depth of 10909m"],
-	["浦东开发开放30年", "浦東開發開放30年", "pǔ dōng kāi fā kāi fàng 30 nián", "Pudong development and opening up 30th anniversary", "We celebrate 30 years since Pudong’s grand opening ceremony. Pudong will be a vanguard in building a socialist country"],
-	["脱贫攻坚", "脫貧攻堅", "tuō pín gōng jiān", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
-	["嫦娥五号", "嫦娥五號", "cháng'é wǔ hào", "COVID-19", "The novel coronavirus spreads across the globe, impacting countless lives"],
+	["浦东开发开放30年", "浦東開發開放30年", "pǔ dōng kāi fā kāi fàng 30 nián", "Pudong development andsary", "We celebrate 30 years since Pudong’s grand opening ceremony.y"],
+	// ["浦东开发开放30年", "浦東開發開放30年", "pǔ dōng kāi fā kāi fàng 30 nián", "Pudong development and opening up 30th anniversary", "We celebrate 30 years since Pudong’s grand opening ceremony. Pudong will be a vanguard in building a socialist country"],
+	["脱贫攻坚", "脫貧攻堅", "tuō pín gōng jiān", "Poverty alleviation", "Absolute poverty and poverty-stricken regions were eliminated. Almost 100 million people were lifted out of poverty"],
+	["嫦娥五号", "嫦娥五號", "cháng'é wǔ hào", "Chang’e-5", "China’s first extraterrestrial probe returns with samples, completing the 3-step “orbit, land, return” of the lunar probe project"],
 ];
 
 function Countdown(props) {

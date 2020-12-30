@@ -62,7 +62,7 @@ div {
 	font-family: 'Times New Roman', Times, serif;
     font-style: italic;
 	font-weight: 100;
-	width: 60%;
+	/* width: 60%; */
     /* display: flex; */
     /* justify-content: space-between; */
     /* text-align: center; */
@@ -102,5 +102,5 @@ div {
 }
 
 .trans-margin-4 {
-	margin-top: 480px;
+	margin-top: 540px;
 }
