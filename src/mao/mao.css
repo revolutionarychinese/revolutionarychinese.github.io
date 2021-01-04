@@ -24,35 +24,12 @@ input {
 	margin: 0px;
 }
 
-.classic {
-	width: 1440px;
-	background-color: #ffe9d3;
-	background-image: url("assets/classic.jpg");
-	background-size: cover;
-	/*color: #d8101b; */
-	/*a bit brighter*/
-	color: #e3131a;
-	/*from avatar*/
-	/*color: #ed2025; */
-	/*border: 1px solid;*/
-}
-
-.covid {
-	width: 1080px;
-	background-color: lightblue;
-	background-image: url("assets/covid.png");
-	/* background-size: cover; */
-	/* color: #ff5656; */
-	color: #ec1b1b;
-	/* border: 1px solid; */
-}
-
 .mao {
 	width: 1080px;
 	background-color: white;
 	color: black;
 	font-family: STKaiti;
-	border: 1px solid;
+	/* border: 1px solid; */
 }
 
 p {
@@ -100,7 +77,7 @@ div {
 	margin-top: 280px;
 }
 .simp-margin-3 {
-	margin-top: 140px;
+	margin-top: 156px;
 }
 .simp-margin-single-3 {
 	margin-top: 250px;
@@ -190,5 +167,5 @@ div {
 	margin-top: 130px;
 }
 .trans-margin-single-2 {
-	margin-top: 205px;
+	margin-top: 190px;
 }
