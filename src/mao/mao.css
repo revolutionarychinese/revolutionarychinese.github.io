@@ -52,7 +52,7 @@ input {
 	background-color: white;
 	color: black;
 	font-family: STKaiti;
-	/* border: 1px solid; */
+	border: 1px solid;
 }
 
 p {
@@ -94,22 +94,22 @@ div {
 }
 
 .simp-margin-4 {
-	margin-top: 220px;
+	margin-top: 160px;
 }
 .simp-margin-single-4 {
-	margin-top: 340px;
+	margin-top: 280px;
 }
 .simp-margin-3 {
-	margin-top: 200px;
+	margin-top: 140px;
 }
 .simp-margin-single-3 {
-	margin-top: 310px;
+	margin-top: 250px;
 }
 .simp-margin-2 {
-	margin-top: 180px;
+	margin-top: 120px;
 }
 .simp-margin-single-2 {
-	margin-top: 240px;
+	margin-top: 180px;
 }
 
 .comp {
@@ -117,17 +117,18 @@ div {
 }
 
 .comp-margin-4 {
-	margin-top: 0px;
+	margin-top: -60px;
+	margin-bottom: -20px;
 }
 
 .comp-margin-3 {
-	margin-top: 0px;
-	/*margin-bottom: -10px;*/
+	margin-top: -60px;
+	margin-bottom: -20px;
 }
 
 .comp-margin-2 {
-	margin-top: 0px;
-	margin-bottom: -10px;
+	margin-top: -60px;
+	margin-bottom: -20px;
 }
 
 .width-4 {

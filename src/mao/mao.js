@@ -37,9 +37,9 @@ const mao_words = [
 	["毛泽东", "Mao Zedong"],
 	["分析", "analysis"],
     ["寻找", "seek"],
-	["倾向", "tendency"],
-	["左倾", "left (politics)"],
-	["右倾", "right (politics)"],
+	["倾向", "political inclination; deviation"],
+	["左倾", "left-leaning"],
+	["右倾", "right-leaning"],
 	// ["机会主义", "opportunism"],
 	// ["农民", "farmer"],
 	// ["党内存在", "黨內存在", "dǎng nèi cún zài", "Within the party"],
@@ -63,10 +63,12 @@ function Mao(props) {
 				pinyin={pinyin_str}
 				trans={trans}/>
 		);
+		const trad_part = trad_str === simp ? " " : "（" + trad_str + "）"
 		blurbs.push(
-			<p key={"blurb" + index}>{simp + "（" + trad_str + "）" + trans}</p>
+			<p key={"blurb" + index}>{simp + trad_part + trans}</p>
 		);
 	}
+	blurbs.reverse()
 	return (
     	<div>
       		{items}
