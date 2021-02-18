@@ -7,6 +7,7 @@ import React, { useEffect } from 'react';
 // import {default as Component} from './words/words.js'
 // import {default as Component} from './countdown/countdown.js'
 import {default as Component} from './mao/mao.js'
+// import {default as Component} from './govt/govt.js'
 
 function saveCanvases() {
   var canvases = document.querySelectorAll("canvas");

@@ -72,6 +72,18 @@ p {
 	padding: 0px;
 }
 
+.text-size-6 {
+	font-size: 150px;
+}
+.text-size-single-6 {
+	font-size: 150px;
+}
+.text-size-5 {
+	font-size: 175px;
+}
+.text-size-single-5 {
+	font-size: 175px;
+}
 .text-size-4 {
 	font-size: 200px;
 }
@@ -90,6 +102,12 @@ p {
 .text-size-single-2 {
 	font-size: 300px;
 }
+.text-size-1 {
+	font-size: 240px;
+}
+.text-size-single-1 {
+	font-size: 300px;
+}
 
 div {
 	margin: auto;
@@ -104,6 +122,18 @@ div {
 	/* font-weight: 700; */
 }
 
+.simp-margin-6 {
+	margin-top: 275px;
+}
+.simp-margin-single-6 {
+	margin-top: 280px;
+}
+.simp-margin-5 {
+	margin-top: 220px;
+}
+.simp-margin-single-5 {
+	margin-top: 280px;
+}
 .simp-margin-4 {
 	margin-top: 195px;
 }
@@ -122,9 +152,25 @@ div {
 .simp-margin-single-2 {
 	margin-top: 180px;
 }
+.simp-margin-1 {
+	margin-top: 120px;
+}
+.simp-margin-single-1 {
+	margin-top: 180px;
+}
 
 .comp {
 	/* font-family: STKaiti; */
+}
+
+.comp-margin-6 {
+	margin-top: -40px;
+	margin-bottom: -20px;
+}
+
+.comp-margin-5 {
+	margin-top: -40px;
+	margin-bottom: -20px;
 }
 
 .comp-margin-4 {
@@ -142,6 +188,21 @@ div {
 	margin-bottom: -20px;
 }
 
+.width-6 {
+	font-size: 70px;
+	width: 860px;
+}
+.width-single-6 {
+	font-size: 70px;
+	width: 790px;
+}
+.width-5 {
+	font-size: 80px;
+	width: 790px;
+}
+.width-single-5 {
+	font-size: 80px;
+}
 .width-4 {
 	font-size: 80px;
 	width: 790px;
@@ -170,6 +231,18 @@ div {
 	width: 590px;
 	/*background-color: pink;*/
 }
+.width-1 {
+	font-size: 80px;
+	padding-left: 3px;
+	width: 470px;
+	/*background-color: pink;*/
+}
+.width-single-1 {
+	font-size: 110px;
+	/* padding-left: 20px; */
+	width: 590px;
+	/*background-color: pink;*/
+}
 .pinyin {
 	margin-top: 40px;
 	font-family: Times New Roman, sans-serif;
@@ -185,8 +258,20 @@ div {
 	text-align: center;
 }
 
+.trans-margin-6 {
+	margin-top: 195px;
+}
+.trans-margin-single-6 {
+	margin-top: 262px;
+}
+.trans-margin-5 {
+	margin-top: 175px;
+}
+.trans-margin-single-5 {
+	margin-top: 242px;
+}
 .trans-margin-4 {
-	margin-top: 160px;
+	margin-top: 155px;
 }
 .trans-margin-single-4 {
 	margin-top: 242px;
@@ -195,11 +280,17 @@ div {
 	margin-top: 145px;
 }
 .trans-margin-single-3 {
-	margin-top: 262px;
+	margin-top: 242px;
 }
 .trans-margin-2 {
 	margin-top: 130px;
 }
 .trans-margin-single-2 {
+	margin-top: 190px;
+}
+.trans-margin-1 {
+	margin-top: 130px;
+}
+.trans-margin-single-1 {
 	margin-top: 190px;
 }

@@ -1,0 +1,230 @@
+
+/* #word4 {display: none;}
+#word-single-4 {display: none;}
+#word3 {display: none;}
+#word-single-3 {display: none;}
+#word2 {display: none;}
+#word-single-2 {display: none;} */
+
+input {
+	background-color: yellow;
+	font-size: 100px;
+}
+
+.buttons {
+	background-color: blue;
+}
+
+.clear-space {
+	display: inline-block;
+	height: 1080px;
+	text-align: center;
+	font-style: normal;
+	padding: 0px;
+	margin: 0px;
+}
+
+td {
+	vertical-align: middle;
+}
+
+.personnel {
+	width: 1080px;
+	background-color: beige;
+	/* border: 1px solid black; */
+	/* -webkit-text-stroke: 2px #fbefe2; */
+
+	font-size: 70px;
+	text-shadow: -2px -2px 0 #fbefe2, 2px -2px 0 #fbefe2, -2px 2px 0 #fbefe2, 2px 2px 0 #fbefe2;
+	/* background-image: url("https://free.clipartof.com/1349-Free-Clipart-Of-A-Map-Of-America-With-A-Flag.png"); */
+	background-image: url("assets/flag.png");
+	background-size: contain;
+	background-position: right 50% bottom 15%;
+	background-repeat: no-repeat;
+	background-color: #fbefe2;
+	line-height: 100%;
+}
+
+.en {
+	font-family: Times;
+	padding-top: -20px;
+	font-size: 32px;
+	line-height: 120%;
+}
+
+.cn {
+	font-family: Baoli SC;
+	/* font-weight: bold; */
+}
+
+table {
+	padding-top: 120px;
+}
+.classic {
+	width: 1080px;
+	background-color: #ffe9d3;
+	/* background-image: url("assets/classic.jpg"); */
+	background-size: cover;
+	/*color: #d8101b; */
+	/*a bit brighter*/
+	color: #e3131a;
+	/*from avatar*/
+	/*color: #ed2025; */
+	/*border: 1px solid;*/
+}
+
+.covid {
+	width: 1080px;
+	background-color: lightblue;
+	background-image: url("assets/covid.png");
+	/* background-size: cover; */
+	/* color: #ff5656; */
+	color: #ec1b1b;
+	/* border: 1px solid; */
+}
+
+.mao {
+	width: 1080px;
+	background-color: white;
+	color: black;
+	/* font-family: STKaiti; */
+}
+
+p {
+	opacity: 0.9;
+	margin: 0px;
+	padding: 0px;
+}
+
+.text-size-4 {
+	font-size: 200px;
+}
+.text-size-single-4 {
+	font-size: 200px;
+}
+.text-size-3 {
+	font-size: 220px;
+}
+.text-size-single-3 {
+	font-size: 230px;
+}
+.text-size-2 {
+	font-size: 240px;
+}
+.text-size-single-2 {
+	font-size: 300px;
+}
+
+div {
+	margin: auto;
+}
+
+#hidden {
+	display: none;
+}
+
+.simp {
+	font-family: source-han-sans-traditional, sans-serif;
+	/* font-family: STKaiti; */
+	font-weight: 700;
+}
+
+.simp-margin-4 {
+	margin-top: 190px;
+}
+.simp-margin-single-4 {
+	margin-top: 300px;
+}
+.simp-margin-3 {
+	margin-top: 160px;
+}
+.simp-margin-single-3 {
+	margin-top: 270px;
+}
+.simp-margin-2 {
+	margin-top: 140px;
+}
+.simp-margin-single-2 {
+	margin-top: 200px;
+}
+
+.comp {
+	/* font-family: STKaiti; */
+	font-family: source-han-sans-traditional, sans-serif;
+	font-weight: 800;
+}
+
+.comp-margin-4 {
+	margin-top: -60px;
+}
+
+.comp-margin-3 {
+	margin-top: -70px;
+	/*margin-bottom: -10px;*/
+}
+
+.comp-margin-2 {
+	margin-top: -80px;
+	margin-bottom: -10px;
+}
+
+.width-4 {
+	font-size: 80px;
+	width: 790px;
+}
+.width-single-4 {
+	font-size: 80px;
+	width: 790px;
+}
+.width-3 {
+	font-size: 80px;
+	width: 650px;
+}
+.width-single-3 {
+	font-size: 80px;
+	width: 692px;
+}
+.width-2 {
+	font-size: 80px;
+	padding-left: 3px;
+	width: 470px;
+	/*background-color: pink;*/
+}
+.width-single-2 {
+	font-size: 110px;
+	/* padding-left: 20px; */
+	width: 590px;
+	/*background-color: pink;*/
+}
+.pinyin {
+	/* font-family: Times New Roman, sans-serif; */
+	font-weight: 800;
+	text-align-last:justify;
+}
+
+.trans {
+	/*display:none;*/
+	width: 100%;
+	font-size: 60px;
+	/* font-family: Times New Roman; */
+	text-align: center;
+}
+
+.trans-margin-4 {
+	margin-top: 160px;
+}
+.trans-margin-single-4 {
+	margin-top: 272px;
+}
+.trans-margin-3 {
+	margin-top: 145px;
+}
+.trans-margin-single-3 {
+	margin-top: 262px;
+}
+.trans-margin-2 {
+	margin-top: 130px;
+}
+.trans-margin-single-2 {
+	margin-top: 205px;
+}
